@@ -1,0 +1,15 @@
+{  
+  "name": "moderation-message",  
+  "version": "1.0.0",  
+  "main": "app.js",  // Adjust if your main file has a different name  
+  "scripts": {  
+    "start": "node app.js",  // or whatever your entry file is  
+    "dev": "nodemon app.js"  // Optional for development  
+  },  
+  "dependencies": {  
+    "express": "^4.18.0",  
+    "body-parser": "^1.19.0",  
+    "cors": "^2.8.5",  
+    "openai": "^3.2.1"  // Include other dependencies as needed  
+  }  
+}
